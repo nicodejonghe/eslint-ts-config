@@ -1,0 +1,31 @@
+{
+  "name": "@ndj/eslint-ts-config",
+  "version": "1.0.0",
+  "description": "Eslint configuration",
+  "dependencies": {
+    "eslint": "^8.3.0",
+    "eslint-import-resolver-typescript": "^2.5.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-autofix": "^1.1.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-rxjs": "^4.0.3",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "typescript": ">4.4.2"
+  },
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint **/src --ext .ts --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicodejonghe/eslint-ts-config.git"
+  },
+  "author": "ndj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nicodejonghe/eslint-ts-config/issues"
+  },
+  "homepage": "https://github.com/nicodejonghe/eslint-ts-config#readme"
+}
